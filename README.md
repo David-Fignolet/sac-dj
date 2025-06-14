@@ -185,6 +185,21 @@ graph LR
 - **🟡 70-89%** : Validation humaine recommandée  
 - **🔴 <70%** : Révision humaine obligatoire
 
+## 🔄 Gestion des prompts
+
+### Prompt par défaut
+Le système utilise par défaut le prompt situé dans [app/prompts/cspe_expert_prompt.md](cci:7://file:///e:/PROJETS%20JOBS/sac-dj/app/prompts/cspe_expert_prompt.md:0:0-0:0).
+
+### Utilisation dans le code
+```python
+from app.utils.prompt_utils import get_system_prompt
+
+# Récupérer le prompt par défaut
+default_prompt = get_system_prompt()
+
+# Spécifier un prompt différent
+custom_prompt = get_system_prompt("mon_prompt_personnalise")
+
 ## 🔧 Scripts Utiles
 
 | Script | Description | Usage |
