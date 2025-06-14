@@ -1,6 +1,10 @@
+# Frontend Streamlit pour SAC-DJ
 streamlit>=1.28.0
 requests>=2.31.0
-python-dotenv>=1.0.0
 plotly>=5.15.0
 pandas>=2.0.0
+python-dotenv>=1.0.0
+
+# Utilitaires pour l'interface
 python-multipart>=0.0.5
+Pillow>=10.0.0
